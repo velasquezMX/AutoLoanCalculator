@@ -43,7 +43,7 @@ public class autoLoanCalculator extends ActionBarActivity {
             totalCostText.setText(String.valueOf((term * monthlyPayment)));
         }else{
             AlertDialog.Builder dlgAlert  = new AlertDialog.Builder(this);
-            dlgAlert.setMessage("Insert required information you lazy fuck");
+            dlgAlert.setMessage("Insert required information");
             dlgAlert.setTitle("Auto Loan Calculator");
             dlgAlert.setPositiveButton("Ok",
                     new DialogInterface.OnClickListener() {
